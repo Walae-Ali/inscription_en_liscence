@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription</title>
+</head>
+
+<body>
+<font size="5">
+<form action="validation.html" method="post">
+<h1 align="center">Inscription en licence</h1>
+  <fieldset align="center">
+  <legend>Informations personnelles</legend>
+  <label>Votre nom</label><input maxlength="30" name="nom" placeholder="votre nom?" size="15" type="=text">
+  </br> </br>
+  <label>Votre prenom</label> <input maxlength="30" name="prenom" placeholder="vote prenom?" size="15" type="=text">
+  </br> </br>
+  <label>Votre age</label> <input maxlength="30" name="age" pattern="[0-100]" placeholder="votre age?" size="15" type="=text">
+  </br> </br>
+  <label>votre adresse</label> <TEXTAREA COLS=40 NAME="adresse" ROWS=5 placeholder="Votre adresse?"></TEXTAREA>
+  </br> </br>
+  date de naissance <input type="date"/>
+    </br> </br>
+  votre  email: <input type="email"/>
+  </br> </br>
+  <label for="passwd"
+
+  > Votre mot de passe: </label> :<INPUT ID ="passwd" MAXLENGTH=30
+
+                                         NAME="passwd" SIZE=15 TYPE ="password" required="obligatoire">
+  </br> </br>
+  <label>Retapez votre mot de passe:</label><INPUT MAXLENGTH=30 SIZE="15"TYPE ="password"  required="required">
+  </br> </br>
+  l'adresse de votre site web :<input type="url"/>
+  </br> </br>
+</fieldset>
+<fieldset align="center">
+  <legend> Gestion des groupes et des options</legend
+  <label>votre groupe:</label>
+  <input name="g1" type=radio value="g1" >groupe 1
+  <input name="g2" type=radio value="g2">groupe 2
+  <input name="g3" type=radio value="g3">groupe 3
+  </br>  </br>
+  <label>Numero de carte d'étudiant :</label><input maxlength="40" name="carte id" size="30"
+                                                    type="text" placeholder="numéro de votre carte d'identité?">
+  </br></br>
+  <label>Choisissez les options que vous désirez:</label>
+  <select name="options">
+    <option >J2ee
+    <option >Android
+    <option >Net
+    <option>Html5
+    <option >Flex
+  </select>   </br>  </br>
+
+  Vérification <label>
+  <input type="text" pattern="[I][N][S][A][T][0-9]{4}">
+</label>
+</fieldset>
+  </br> </br>
+
+
+  <p align="center">
+<input type=submit value="valider">
+  <input type=reset value="réinitialiser">
+</p>
+</form>
+</font>
+</body>
+</html>
